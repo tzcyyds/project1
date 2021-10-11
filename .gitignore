@@ -3,8 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-./MFCApplication1/log/*
-!./MFCApplication1/log/*.log
+MFCApplication1/log/*
+!MFCApplication1/log/*.log
 
 # User-specific files
 *.rsuser
@@ -93,7 +93,7 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
+# *.log
 *.vspscc
 *.vssscc
 .builds
